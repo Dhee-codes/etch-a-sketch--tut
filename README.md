@@ -3,7 +3,9 @@
 A browser-based sketch pad built with **vanilla JavaScript, HTML, and CSS**.  
 Users can draw by hovering over a grid, toggle eraser mode, clear the pad, and manage custom color palettes.
 
----
+## Screenshot
+
+![Preview](images/screenshot.png)
 
 ## Features
 
@@ -18,8 +20,6 @@ Users can draw by hovering over a grid, toggle eraser mode, clear the pad, and m
   - Custom color picker via native input  
   - Contextual menu with *Use*, *Change*, *Empty* actions  
 
----
-
 ## Tech Stack
 
 | Layer | Tools |
@@ -27,8 +27,6 @@ Users can draw by hovering over a grid, toggle eraser mode, clear the pad, and m
 | **Frontend** | HTML5, CSS3, Vanilla JavaScript |
 | **Architecture** | Modular DOM manipulation + event delegation |
 | **UI Logic** | Dynamic node creation, state-driven interactivity |
-
----
 
 ## How It Works
 
@@ -39,8 +37,6 @@ Users can draw by hovering over a grid, toggle eraser mode, clear the pad, and m
 | **Event Delegation** | Global listeners (`mousedown`, `mouseup`, `mouseleave`) ensure consistent drawing logic. Button listeners stay persistent to avoid re-binding issues. |
 | **Palette Menu** | Uses DOM-positioned contextual menus (`.color-menu`) to handle per-pot actions. |
 
----
-
 ## Lessons Applied
 
 - Rebuilding grids requires re-binding only pixel-specific events.  
@@ -48,8 +44,6 @@ Users can draw by hovering over a grid, toggle eraser mode, clear the pad, and m
 - Always handle `mouseleave` on the drawing surface to prevent sticky mouse states.  
 - Use state objects for global UI state instead of excessive flags.  
 - CSS `flex-basis` scaling simplifies grid sizing.  
-
----
 
 ## Setup
 
@@ -60,10 +54,6 @@ cd etch-a-sketch-top
 ```
 
 Then open index.html in your browser.
-
-No build tools. No dependencies. Pure front-end logic.
-
----
 
 ## File Structure
 
@@ -86,12 +76,14 @@ etch-a-sketch/
 
 ```
 
+## Acknowledgement
+
+The Odin Project
+
 ## Author
 
-**divine-obiorah**
-
----
+***Dhee-codes***
 
 ## License
 
-This project is licensed under the MIT License — free to use, modify, and distribute.
+This project is licensed under the MIT License.
