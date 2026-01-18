@@ -3,9 +3,15 @@
 A browser-based sketch pad built with **vanilla JavaScript, HTML, and CSS**.  
 Users can draw by hovering over a grid, toggle eraser mode, clear the pad, and manage custom color palettes.
 
-## Screenshot
+## Demo
 
-![Preview](images/screenshot.png)
+### Screenshot
+
+![Priview](images/screenshot.png)
+
+### Live Priview
+
+[GitHub Pages](https://Dhee-codes.github.io/etch-a-sketch--tut)
 
 ## Features
 
@@ -22,11 +28,9 @@ Users can draw by hovering over a grid, toggle eraser mode, clear the pad, and m
 
 ## Tech Stack
 
-| Layer | Tools |
-|-------|--------|
-| **Frontend** | HTML5, CSS3, Vanilla JavaScript |
-| **Architecture** | Modular DOM manipulation + event delegation |
-| **UI Logic** | Dynamic node creation, state-driven interactivity |
+- HTML5
+- CSS
+- Vanilla JavaScript
 
 ## How It Works
 
